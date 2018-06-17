@@ -1,72 +1,103 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Shaoming's Basic Portfolio Page</title>
-    <link rel="stylesheet" type="text/css" , href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" , href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Page</title>
+  <link rel="stylesheet" type="text/css" , href="assets/css/reset.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" , href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="headercontent">
-            <h1 class="headername">Shaoming Yin</h1>
-            <nav>
-                <a href="index.html">About | </a>
-                <a href="portfolio.html">Portfolio | </a>
-                <a href="contact.html">Contact</a>
-            </nav>
+  <div class="row navheader">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">Shaoming Yin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link active" href="portfolio.html">Portfolio
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
-    </header>
+      </div>
+    </nav>
+  </div>
 
-    <section class="container">
-        <article class="portfolio">
-            <h1 class="portfolioheader">Portfolio</h1>
-            <hr>
+  <div class="container">
+    <h1>Portfolio</h1>
+    <hr>
+    <br>
 
-            <div class="portfoliocontainer1">
-                <a href="https://github.com/syin1" target="_blank">
-                    <img class="portfolio1" width=400px height=300px src="assets/images/placeholder_image.jpg" alt="Portfolio Pic 1">
-                    <div class="pname1">Portfolio 1</div>
-                </a>
-            </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 portfolio1">
+        <a href="https://github.com/syin1" target=_blank>
+          <img src="assets/images/placeholder_image.jpg" class="img-fluid float-left" alt="Responsive image">
+          <div class="pname1">Portfolio 1</div>
+        </a>
+      </div>
 
-            <div class="portfoliocontainer2">
-                <a href="https://github.com/syin1" target="_blank">
-                    <img class="portfolio2" width=400px height=300px src="assets/images/placeholder_image.jpg" alt="Portfolio Pic 2">
-                    <div class="pname2">Portfolio 2</div>
-                </a>
-            </div>
+      <div class="col-xs-12 col-md-6 portfolio2">
+        <a href="https://github.com/syin1" target=_blank>
+          <img src="assets/images/placeholder_image.jpg" class="img-fluid float-right" alt="Responsive image">
+          <div class="pname2">Portfolio 2</div>
+        </a>
+      </div>
+    </div>
 
-            <div class="portfoliocontainer3">
-                <a href="https://github.com/syin1" target="_blank">
-                    <img class="portfolio3" width=400px height=300px src="assets/images/placeholder_image.jpg" alt="Portfolio Pic 3">
-                    <div class="pname3">Portfolio 3</div>
-                </a>
-            </div>
+    <br>
+    <br>
 
-            <div class="portfoliocontainer4">
-                <a href="https://github.com/syin1" target="_blank">
-                    <img class="portfolio4" width=400px height=300px src="assets/images/placeholder_image.jpg" alt="Portfolio Pic 4">
-                    <div class="pname4">Portfolio 4</div>
-                </a>
-            </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 portfolio3">
+        <a href="https://github.com/syin1" target=_blank>
+          <img src="assets/images/placeholder_image.jpg" class="img-fluid float-left" alt="Responsive image">
+          <div class="pname3">Portfolio 3</div>
+        </a>
+      </div>
 
-            <div class="portfoliocontainer5">
-                <a href="https://github.com/syin1" target="_blank">
-                    <img class="portfolio5" width=400px height=300px src="assets/images/placeholder_image.jpg" alt="Portfolio Pic 5">
-                    <div class="pname5">Portfolio 5</div>
-                </a>
-            </div>
+      <div class="col-xs-12 col-md-6 portfolio4">
+        <a href="https://github.com/syin1" target=_blank>
+          <img src="assets/images/placeholder_image.jpg" class="img-fluid float-right" alt="Responsive image">
+          <div class="pname4">Portfolio 4</div>
+        </a>
+      </div>
+    </div>
 
+    <br>
+    <br>
 
-        </article>
-    </section>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 portfolio5">
+        <a href="https://github.com/syin1" target=_blank>
+          <img src="assets/images/placeholder_image.jpg" class="img-fluid float-left" alt="Responsive image">
+          <div class="pname5">Portfolio 5</div>
+        </a>
+      </div>
 
-    <footer>
-        Copyright ©
-    </footer>
+      <div class="col-xs-12 col-md-6 portfolio6">
+        <a href="https://github.com/syin1" target=_blank>
+          <img src="assets/images/placeholder_image.jpg" class="img-fluid float-right" alt="Responsive image">
+          <div class="pname6">Portfolio 6</div>
+        </a>
+      </div>
+    </div>
+
+    <br>
+
+  </div>
+
+  <footer>
+    Copyright ©
+  </footer>
 </body>
 
 </html>
