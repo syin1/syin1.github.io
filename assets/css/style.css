@@ -96,7 +96,8 @@ img {
 .portfolio2,
 .portfolio3,
 .portfolio4,
-.portfolio5 {
+.portfolio5,
+.portfolio6 {
   margin-bottom: 40px;
 }
 
@@ -132,7 +133,8 @@ p {
 .portfoliocontainer2,
 .portfoliocontainer3,
 .portfoliocontainer4,
-.portfoliocontainer5 {
+.portfoliocontainer5,
+.portfoliocontainer6 {
   position: relative;
   text-align: center;
   color: white;
@@ -145,7 +147,8 @@ p {
 .portfolio2,
 .portfolio3,
 .portfolio4,
-.portfolio5 {
+.portfolio5,
+.portfolio6 {
   width: 100%;
 }
 
@@ -153,7 +156,8 @@ p {
 .pname2,
 .pname3,
 .pname4,
-.pname5 {
+.pname5,
+.pname6 {
   position: absolute;
   bottom: 20%;
   left: 0;
@@ -186,7 +190,8 @@ footer {
   .portfoliocontainer2,
   .portfoliocontainer3,
   .portfoliocontainer4,
-  .portfoliocontainer5 {
+  .portfoliocontainer5,
+  .portfoliocontainer6 {
     width: 43%;
   }
 }
@@ -204,7 +209,8 @@ footer {
   .portfoliocontainer2,
   .portfoliocontainer3,
   .portfoliocontainer4,
-  .portfoliocontainer5 {
+  .portfoliocontainer5,
+  .portfoliocontainer6 {
     width: 85%;
   }
 }
@@ -222,7 +228,8 @@ footer {
   .portfoliocontainer2,
   .portfoliocontainer3,
   .portfoliocontainer4,
-  .portfoliocontainer5 {
+  .portfoliocontainer5,
+  .portfoliocontainer6 {
     width: 85%;
   }
 }
